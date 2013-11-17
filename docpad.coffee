@@ -99,9 +99,14 @@ docpadConfig = {
 				else
 					next()
 
- # Environments
+	# Configure Plugins
+	plugins:
+		sass:
+			compass: true
+
+	# Environments
     # Allows us to set custom configuration for specific environments
-    environments:  # default
+	environments:  # default
         development:  # default
             # Always refresh from server
             maxAge: false  # default

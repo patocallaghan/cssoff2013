@@ -1,425 +1,431 @@
-/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
-
-/* ==========================================================================
-   HTML5 display definitions
-   ========================================================================== */
-
-/**
- * Correct `block` display not defined in IE 8/9.
- */
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-nav,
-section,
-summary {
-    display: block;
-}
-
-/**
- * Correct `inline-block` display not defined in IE 8/9.
- */
-
-audio,
-canvas,
-video {
-    display: inline-block;
-}
-
-/**
- * Prevent modern browsers from displaying `audio` without controls.
- * Remove excess height in iOS 5 devices.
- */
-
-audio:not([controls]) {
-    display: none;
-    height: 0;
-}
-
-/**
- * Address `[hidden]` styling not present in IE 8/9.
- * Hide the `template` element in IE, Safari, and Firefox < 22.
- */
-
-[hidden],
-template {
-    display: none;
-}
-
-/* ==========================================================================
-   Base
-   ========================================================================== */
-
-/**
- * 1. Set default font family to sans-serif.
- * 2. Prevent iOS text size adjust after orientation change, without disabling
- *    user zoom.
- */
-
-html {
-    font-family: sans-serif; /* 1 */
-    -ms-text-size-adjust: 100%; /* 2 */
-    -webkit-text-size-adjust: 100%; /* 2 */
-}
-
-/**
- * Remove default margin.
- */
-
-body {
-    margin: 0;
-}
-
-/* ==========================================================================
-   Links
-   ========================================================================== */
-
-/**
- * Remove the gray background color from active links in IE 10.
- */
-
-a {
-    background: transparent;
-}
-
-/**
- * Address `outline` inconsistency between Chrome and other browsers.
- */
-
-a:focus {
-    outline: thin dotted;
-}
-
-/**
- * Improve readability when focused and also mouse hovered in all browsers.
- */
-
-a:active,
-a:hover {
-    outline: 0;
-}
-
-/* ==========================================================================
-   Typography
-   ========================================================================== */
-
-/**
- * Address variable `h1` font-size and margin within `section` and `article`
- * contexts in Firefox 4+, Safari 5, and Chrome.
- */
-
-h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
-}
-
-/**
- * Address styling not present in IE 8/9, Safari 5, and Chrome.
- */
-
-abbr[title] {
-    border-bottom: 1px dotted;
-}
-
-/**
- * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
- */
-
-b,
-strong {
-    font-weight: bold;
-}
-
-/**
- * Address styling not present in Safari 5 and Chrome.
- */
-
-dfn {
-    font-style: italic;
-}
-
-/**
- * Address differences between Firefox and other browsers.
- */
-
-hr {
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-    height: 0;
-}
-
-/**
- * Address styling not present in IE 8/9.
- */
-
-mark {
-    background: #ff0;
-    color: #000;
-}
-
-/**
- * Correct font family set oddly in Safari 5 and Chrome.
- */
-
-code,
-kbd,
-pre,
-samp {
-    font-family: monospace, serif;
-    font-size: 1em;
-}
-
-/**
- * Improve readability of pre-formatted text in all browsers.
- */
-
-pre {
-    white-space: pre-wrap;
-}
-
-/**
- * Set consistent quote types.
- */
-
-q {
-    quotes: "\201C" "\201D" "\2018" "\2019";
-}
-
-/**
- * Address inconsistent and variable font size in all browsers.
- */
-
-small {
-    font-size: 80%;
-}
-
-/**
- * Prevent `sub` and `sup` affecting `line-height` in all browsers.
- */
-
-sub,
-sup {
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline;
-}
-
-sup {
-    top: -0.5em;
-}
-
-sub {
-    bottom: -0.25em;
-}
-
-/* ==========================================================================
-   Embedded content
-   ========================================================================== */
-
-/**
- * Remove border when inside `a` element in IE 8/9.
- */
-
-img {
-    border: 0;
-}
-
-/**
- * Correct overflow displayed oddly in IE 9.
- */
-
-svg:not(:root) {
-    overflow: hidden;
-}
-
-/* ==========================================================================
-   Figures
-   ========================================================================== */
-
-/**
- * Address margin not present in IE 8/9 and Safari 5.
- */
-
-figure {
-    margin: 0;
-}
-
-/* ==========================================================================
-   Forms
-   ========================================================================== */
-
-/**
- * Define consistent border, margin, and padding.
- */
-
-fieldset {
-    border: 1px solid #c0c0c0;
-    margin: 0 2px;
-    padding: 0.35em 0.625em 0.75em;
-}
-
-/**
- * 1. Correct `color` not being inherited in IE 8/9.
- * 2. Remove padding so people aren't caught out if they zero out fieldsets.
- */
-
-legend {
-    border: 0; /* 1 */
-    padding: 0; /* 2 */
-}
-
-/**
- * 1. Correct font family not being inherited in all browsers.
- * 2. Correct font size not being inherited in all browsers.
- * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
- */
-
-button,
-input,
-select,
-textarea {
-    font-family: inherit; /* 1 */
-    font-size: 100%; /* 2 */
-    margin: 0; /* 3 */
-}
-
-/**
- * Address Firefox 4+ setting `line-height` on `input` using `!important` in
- * the UA stylesheet.
- */
-
-button,
-input {
-    line-height: normal;
-}
-
-/**
- * Address inconsistent `text-transform` inheritance for `button` and `select`.
- * All other form control elements do not inherit `text-transform` values.
- * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
- * Correct `select` style inheritance in Firefox 4+ and Opera.
- */
-
-button,
-select {
-    text-transform: none;
-}
-
-/**
- * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
- *    and `video` controls.
- * 2. Correct inability to style clickable `input` types in iOS.
- * 3. Improve usability and consistency of cursor style between image-type
- *    `input` and others.
- */
-
-button,
-html input[type="button"], /* 1 */
-input[type="reset"],
-input[type="submit"] {
-    -webkit-appearance: button; /* 2 */
-    cursor: pointer; /* 3 */
-}
-
-/**
- * Re-set default cursor for disabled elements.
- */
-
-button[disabled],
-html input[disabled] {
-    cursor: default;
-}
-
-/**
- * 1. Address box sizing set to `content-box` in IE 8/9/10.
- * 2. Remove excess padding in IE 8/9/10.
- */
-
-input[type="checkbox"],
-input[type="radio"] {
-    box-sizing: border-box; /* 1 */
-    padding: 0; /* 2 */
-}
-
-/**
- * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
- * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
- *    (include `-moz` to future-proof).
- */
-
-input[type="search"] {
-    -webkit-appearance: textfield; /* 1 */
-    -moz-box-sizing: content-box;
-    -webkit-box-sizing: content-box; /* 2 */
-    box-sizing: content-box;
-}
-
-/**
- * Remove inner padding and search cancel button in Safari 5 and Chrome
- * on OS X.
- */
-
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-    -webkit-appearance: none;
-}
-
-/**
- * Remove inner padding and border in Firefox 4+.
- */
-
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-    border: 0;
-    padding: 0;
-}
-
-/**
- * 1. Remove default vertical scrollbar in IE 8/9.
- * 2. Improve readability and alignment in all browsers.
- */
-
-textarea {
-    overflow: auto; /* 1 */
-    vertical-align: top; /* 2 */
-}
-
-/* ==========================================================================
-   Tables
-   ========================================================================== */
-
-/**
- * Remove most spacing between table cells.
- */
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
+/*! normalize.css v2.1.3 | MIT License | git.io/normalize */article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,video{display:inline-block}audio:not([controls]){display:none;height:0}[hidden],template{display:none}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}a{background:transparent}a:focus{outline:thin dotted}a:active,a:hover{outline:0}h1{font-size:2em;margin:.67em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}mark{background:#ff0;color:#000}code,kbd,pre,samp{font-family:monospace,serif;font-size:1em}pre{white-space:pre-wrap}q{quotes:"\201C" "\201D" "\2018" "\2019"}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:0}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}button,input{line-height:normal}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
 
 /* ===========================================================================
 	CSS OFF Styles
 	==========================================================================
 */
+// ----------------------
+// ?Color Swatch
+// ----------------------
+$black: #000;
+$white: #fff;
+$purple: #cdc9dd;
+$purple--light: #d3d0e1;
+$scarpa-flow: #5F5D66;
+$dolphin: #6e6c77;
+$rodeo-dust: #CBB8A0;
+$spun-pearl: #B0AEB8;
+$chardonnay: #fdcd84;
+$equator: #e0c167;
+$copper: #a97d35;
+$mercury: #e5e5e5;
+$eucalyptus: #24795a;
+$tundora: #464646;
+$alto: #e0e0e0;
+$armadillo: #524741;
+$pine-cone: #71652a;
+$zorba: #524741;
+$boston-blue: #3a83bb;
+$danube: #619cc9;
+$polo-blue: #88aed1;
+$cadet-blue: #a0b4c0;
+$grey: #8c8c8c;
+$dusty-grey: #989898;
 
-// font-family: 'Lato', sans-serif;
-// font-family: 'Lora', serif;
-// font-family: 'Oswald', sans-serif;
-// font-family: 'Merriweather', serif;
+// ----------------------
+// ?Variables
+// ----------------------
+$body-background: $white;
+// -- Fonts
+$font-size--default: 16px;
+$font-line-height--default: 24px;
+$font-color--default: $black;
+$lato: 'Lato', Arial, sans-serif;
+$lora: 'Lora', Georgia, serif;
+$oswald: 'Oswald', Arial, sans-serif;
+$merriweather: 'Merriweather', Arial, serif;
+$font--default: $merriweather;
+$font--headings: $oswald;
+// -- Dimensions
+$site-max-width: 1200px;
+$site-max-width--oldie: 960px;
+$site-side-gutter: $font-size--default;
 
-body {
-	font-family: 'Merriweather', serif;
+// ----------------------
+// ?Functions
+// ----------------------
+// Line Height calculation
+// Calculates a unitless line-height (See here on why unitless line-heights are good http://meyerweb.com/eric/thoughts/2006/02/08/unitless-line-heights/)
+// $amount: Line height to return
+// $context: By default it uses the default font-size. You can also pass it a context to avoid problems of compound font sizes.
+// $minus: By default is false. If true returns the resulting line-height as a minus number
+// Example 1: lh(20)
+// return: 1.25 depending on a root font-size of 16px
+// Example 2: lh(24, 20)
+// return: 1.2 depending on a contextual font-size of 20px
+// Example 3: lh(20, $minus: true)
+// return: -1.2 depending on a contextual font-size of 20px
+@function lh($amount: 1, $context: $font-size--default, $minus: false) {
+	@if $amount > 1 {
+		$amount: $amount/$font-line-height--default;
+	}
+
+	$result: em($font-line-height--default * $amount, $context, $unitless: true);
+
+	@if $minus == true {
+		@return $result * -1;
+	} @else {
+		@return $result;
+	}
 }
 
-#{h1,h6} {
-	font-family: 'Oswald', sans-serif;
+//Font Size calculation : ems
+// Returns an em value according to the target.
+// $target: font-size to return
+// $context: By default it uses the default font-size. You can also pass it a context to avoid problems of compound font sizes.
+// $unitless: If you want to remove the em from the result.
+// Examples
+// Example 1: em(20)
+// return: 1.25em depending on a root font-size of 16px
+// Example 2: em(20, 24)
+// return: 0.8333333em depending on a context font-size of 24px
+// Example 3: em(20, $unitless: false)
+// returns 0.8333333
+@function em($target, $context: $font-size--default, $unitless: false) {
+	@if $target == 0 { @return 0; }
+
+	//Determine whether we want line-height unitless or not
+	$result: $target / $context;
+	@if $unitless == true {
+		@return $result;
+	} @else {
+		@return $result + 0em;
+	}
 }
 
+// Returns a unitless value from a value with a unit (From https://github.com/nex3/sass/issues/533)
+// $value: value to return unitless
+// Example: clear-units(10px)
+// returns 10
+@function clear-units($value){
+	@if type-of($value) == "number" {
+		@if (unitless($value)) {
+			@return $value;
+		} @else if unit($value) == "em"{
+			@return $value / 1em;
+		} @else if unit($value) == "px" {
+			@return $value / 1px;
+		} @else if unit($value) == "pt" {
+			@return $value / 1pt;
+		} @else if unit($value) == "rem" {
+			@return $value / 1rem;
+		}
+	} @else {
+		@warn "Not a number value: #{$value}";
+		@return $value;
+	}
+}
+
+// ----------------------
+// ?Extends
+// ----------------------
+//-- Font families
+%font--lato {
+	font-family: $lato;
+}
+%font--lora {
+	font-family: $lora;
+}
+%font--merriweather {
+	font-family: $merriweather;
+}
+%font--oswald {
+	font-family: $oswald;
+}
+//-- Weights
+%font--hairline {
+	font-weight: 100;
+}
+%font--light {
+	font-weight: 300;
+}
+%font--normal {
+	font-weight: 400;
+}
+font--strong {
+	font-weight: 700;
+}
+font--heavy {
+	font-weight: 900;
+}
+//-- Text helpers
+%font--left {
+	text-align: left;
+}
+%font--center {
+	text-align: center;
+}
+%font--right {
+	text-align: right;
+}
+
+// ----------------------
+// ?Base styles
+// ----------------------
+html,
+button,
+input,
+select,
+textarea {
+    color: $font-color--default;
+}
+html {
+	background: $body-background;
+    font-size: em($font-size--default);
+    line-height: lh($font-line-height--default);
+}
+#{headers()} {
+	margin: 0;
+	font-weight: normal;
+}
+//-- Lists
+ul,
+ol {
+	padding-left: 0;
+	list-style-position: inside;
+}
+//-- Selection text
+::-moz-selection {
+	color: $white;
+    background: $purple;
+    text-shadow: none;
+}
+::selection {
+	color: $white;
+    background: $purple;
+    text-shadow: none;
+}
+//-- Media
+canvas,
+img,
+svg {
+    vertical-align: middle;
+}
+
+// ----------------------
+// ?Typography
+// ----------------------
+html {
+	font-family: $font--default;
+}
+#{headers()} {
+	font-family: $font--headings;
+	text-transform: uppercase;
+}
+
+
+// ----------------------
+// ?Layout
+// ----------------------
+.wrapper {
+	margin: 0 auto;
+	max-width: em( $site-max-width + 2*$site-side-gutter);
+	padding: 0 em( $site-side-gutter);
+	.oldie & {
+		min-width: em($site-max-width--oldie + 2*$site-side-gutter);
+		max-width: em($site-max-width--oldie + 2*$site-side-gutter);
+	}
+}
+
+// ----------------------
+// ?Custom Styles
+// ----------------------
+
+// -- Masthead ----------
+.masthead {
+	@extend %font--lato;
+	@extend %font--hairline;
+	font-size: em(50px);
+	background: $purple;
+	color: $white;
+}
+.masthead__meta {
+	@extend %font--lora;
+	color: $spun-pearl;
+	font-style: italic;
+	font-size: em(12px, 50px);
+}
+
+//-- Feature ------------
+.feature {
+	
+}
+.feature__heading {
+	color: $chardonnay;
+	font-size: em(75px);
+	line-height: lh( 80px, 75px );
+}
+.feature__meta {
+	@extend %font--merriweather;
+	margin-bottom: 0;
+	color: $rodeo-dust;
+	font-size: em(13px);
+}
+.feature__body {
+	@extend %font--merriweather;
+	@extend %font--light;
+	font-size: em(25px);
+	line-height: lh( 33px, 25px );
+}
+
+//-- Box Model ------------
+.box {
+	text-align: center;
+}
+.box__heading {
+	@extend %font--lora;
+	@extend %font--strong;
+	font-style: italic;
+	font-size: em(36px);
+	color: $scarpa-flow;
+}
+.box__body {
+	@extend %font--lato;
+	color: $dolphin;
+	font-size: em(19px);
+}
+
+//-- Staying Afloat Article ------------
+.staying {
+}
+.staying__heading {
+	color: $eucalyptus;
+	font-size: em(21px);
+	text-transform: none;
+}
+.staying__body {
+	@extend %font--lato;
+	color: $tundora;
+	font-size: em(14px);
+}
+
+
+
+// ----------------------
+// ?Helper Classes
+// ----------------------
+ //-- Image replacement
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+//-- Hide from both screenreaders and displays
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+//- Hide only visually, but have it available for screenreaders
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+//-- Hide visually but maintain layout
+.invisible {
+    visibility: hidden;
+}
+
+// ----------------------
+// ?Print styles
+// ----------------------
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

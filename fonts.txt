@@ -1,16 +1,16 @@
 Lato
-	Hairline
-	Regular
+	Hairline - 100
+	Regular - 400
 
 Oswald
-	Regular
+	Regular - 400
 
 Merriweather
-	Light
-	Regular
-	Heavy
+	Light - 300
+	Regular - 400
+	Heavy - 900
 
 Lora
-	Italic
-	Bold Italic
+	Italic - 400
+	Bold Italic - 700
 
