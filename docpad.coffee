@@ -35,7 +35,7 @@ docpadConfig = {
 
 			# The website's styles
 			styles: [
-				'/styles/style.css'
+				'assets/css/style.css'
 			]
 
 			# The website's scripts

@@ -1,0 +1,16 @@
+Lato
+	Hairline
+	Regular
+
+Oswald
+	Regular
+
+Merriweather
+	Light
+	Regular
+	Heavy
+
+Lora
+	Italic
+	Bold Italic
+
